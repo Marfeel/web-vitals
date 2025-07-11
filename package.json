@@ -166,6 +166,6 @@
     "**/*.{cjs,css,html,js,json,html,md,ts,yml,yaml}": "prettier --write --ignore-path .gitignore"
   },
   "publishConfig": {
-		"registry": "https://repositories.mrf.io/nexus/repository/npm-internal/"
-	}
+    "registry": "https://repositories.mrf.io/nexus/repository/npm-internal/"
+  }
 }
