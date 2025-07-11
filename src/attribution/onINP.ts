@@ -44,7 +44,7 @@ interface pendingEntriesGroup {
 // the frame-related data has come in.
 // In most cases this out-of-order data is only off by a frame or two, so
 // keeping the most recent 100 should be more than sufficient.
-const MAX_PREVIOUS_FRAMES = 100;
+const MAX_PREVIOUS_FRAMES = 150;
 
 /**
  * Calculates the [INP](https://web.dev/articles/inp) value for the current
