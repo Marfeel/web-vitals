@@ -1,5 +1,5 @@
 {
-  "name": "web-vitals",
+  "name": "@marfeel/web-vitals",
   "version": "5.0.3",
   "description": "Easily measure performance metrics in JavaScript",
   "type": "module",
@@ -164,5 +164,8 @@
   "lint-staged": {
     "**/*.{js,ts}": "eslint --fix --ignore-path .gitignore",
     "**/*.{cjs,css,html,js,json,html,md,ts,yml,yaml}": "prettier --write --ignore-path .gitignore"
+  },
+  "publishConfig": {
+    "registry": "https://repositories.mrf.io/nexus/repository/npm-internal/"
   }
 }
