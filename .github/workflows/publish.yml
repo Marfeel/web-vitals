@@ -15,4 +15,4 @@ jobs:
           npm config set strict-ssl false
       - run: npm install
       - run: npm run build
-      - run: npm run publish
+      - run: npm publish
