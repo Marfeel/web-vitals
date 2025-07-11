@@ -11,7 +11,7 @@ import {
   INPThresholds,
   LCPThresholds,
   TTFBThresholds,
-} from 'web-vitals/attribution';
+} from '@marfeel/web-vitals/attribution';
 
 describe('index', () => {
   it('exports Web Vitals metrics functions', () => {
